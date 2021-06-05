@@ -1,18 +1,15 @@
 {% extends 'search/layout.html' %}
 
 
-
 {% block body %}
-<div class="whole_page">
-    <div class="logo">
-        <img src="https://mms.businesswire.com/media/20180611005885/en/662668/5/3398112_nouveau-logo-google.jpg?download=1">
-    </div>
-    <div class="search_bar">
-        <form action="https://google.co.uk/search">
-            <input type="text" name="q"><br>
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky" formaction="">
-        </form>
-    </div>
+<div align="center">
+    <img width="300px"
+         src="https://cdn.vox-cdn.com/thumbor/8tLchaDMIEDNzUD3mYQ7v1ZQL84=/0x0:2012x1341/920x613/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg">
+</div>
+<div class="search">
+    <form action="https://google.co.uk/search">
+        <input type="text" name="q">
+        <input type="submit" value="Google Search">
+    </form>
 </div>
 {% endblock %}
